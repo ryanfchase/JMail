@@ -10,7 +10,6 @@ import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 
-
 @SuppressWarnings("serial")
 public class JMail extends JFrame{
 	
@@ -37,7 +36,7 @@ public class JMail extends JFrame{
 	JMail() {
 		super("JMail Client");
 		
-		
+		System.out.println("Test");
 		
 		this.setIconImage(windowIcon.getImage());
 		this.setSize(800,600);
