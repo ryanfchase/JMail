@@ -36,7 +36,7 @@ public class JMail extends JFrame{
 	JMail() {
 		super("JMail Client");
 		
-		System.out.println("Test");
+		System.out.println("Test"); //Adding a comment
 		
 		this.setIconImage(windowIcon.getImage());
 		this.setSize(800,600);
